@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:layout_margin="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/et_country_code"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_mobile_number"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/et_country_code"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/text1"
+        android:hint="@string/mobile_number"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_country_code"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/register"
+        android:background="@color/colorOrange"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:text="register_with_email"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txt_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:layout_below="@+id/txt_register_email"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_or"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/register_with_fb"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@color/colorBlue"/>
+
+</RelativeLayout>

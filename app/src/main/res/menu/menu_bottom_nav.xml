@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/awal"
+        android:title="@string/awal"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/pesanan"
+        android:title="@string/pesanan"
+        android:icon="@drawable/pesanan"/>
+
+    <item
+        android:id="@+id/inbox"
+        android:title="@string/inbox"
+        android:icon="@drawable/inbox"/>
+
+    <item
+        android:id="@+id/akun_saya"
+        android:title="@string/akun_saya"
+        android:icon="@drawable/akun"/>
+
+
+</menu>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Traveloka Apps</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="awal">Awal</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="inbox">Inbox</string>
+    <string name="akun_saya">Akun Saya</string>
+    <string name="text">Your mobile number will be used to log in and reset password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="register">Register</string>
+    <string name="or">or</string>
+    <string name="register_with_fb">REGISTER WITH FACEBOOK</string>
+    <string name="Login">LOGIN</string>
+    <string name="text2">Log in ke akun Traveloka Anda untuk kemudahan pemesanan.</string>
+    <string name="email_or_phone">Email atau No. Handphone</string>
+    <string name="password">Password</string>
+    <string name="atau">atau</string>
+    <string name="masuk_google">Masuk Dengan Google</string>
+    <string name="masuk_facebook">Masuk Dengan Facebook</string>
+    <string name="lupa_pass">Lupa Password?</string>
+    <string name="belum_punya_akun">Belum Memiliki Akun?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tiket_pesawat">Tiket Pesawat</string>
+    <string name="hotel">Hotel</string>
+    <string name="tiket_kereta_api">Tiket Kereta Api</string>
+    <string name="pesawat_hotel">Pesawat+Hotel</string>
+    <string name="pulsa_paket"><![CDATA[Pulsa & Paket Internet]]></string>
+    <string name="rekreasi"><![CDATA[Aktivitas & Rekreasi]]></string>
+    <string name="fitur_pilihan">Fitur Pilihan</string>
+    <string name="poin">Poin</string>
+    <string name="internet_luar_negri">Internet Luar Negri</string>
+    <string name="pesawat_luar_negri">Pesawat Luar Negri</string>
+    <string name="bepergian_hemat">Bepergian Hemat</string>
+    <string name="promo_saat_ini">Promo Saat Ini</string>
+    <string name="notifikasi_harga">Notifikasi Harga</string>
+    <string name="kamar_budget">Kamar Budget</string>
+</resources>
